@@ -35,7 +35,7 @@
 - [x] **Comprehensive Testing Strategy**: Implemented unit tests for `AppConfig` and resolved environment conflicts using `serial_test`.
 - [x] **Contextual Error Handling**: Enhanced `PprfError` with more granular types for better context and debugging.
 - [x] **Configuration Validation**: Added unit tests for `AppConfig` to validate configuration values.
-- [ ] **Structured Logging**: Implement structured logging with appropriate log levels.
+- [x] **Structured Logging**: Implemented structured logging with `tracing` and `tracing-subscriber`.
 - [ ] **Self-Healing & Memory Management Error Handling**: Develop mechanisms for automatic error recovery, resource cleanup, and memory leak detection.
 - [ ] **Doc Comments**: Add comprehensive documentation for public items.
 - [ ] **Dependency Management**: Regularly review and update dependencies, and use `cargo audit`.
