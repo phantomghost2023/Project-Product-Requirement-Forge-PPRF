@@ -29,13 +29,14 @@
 - Structured Module Initialization : Organizing the startup logic for clarity and maintainability. (Completed)
 - Comprehensive Testing Strategy : Developing unit, integration, and end-to-end tests. (Completed)
 - Asynchronous Best Practices: Ensuring efficient and non-blocking operations. (Completed)
-- [x] Error Handling System
+- [x] Error Handling System: Expanded `PprfError` with more granular types (I/O, Configuration, Service Unavailable, Internal) for improved error indexing and future self-healing capabilities.
 
 ### Additional Code Quality & Maintainability Enhancements
-- [ ] **Comprehensive Testing Strategy**: Implement unit, integration, and end-to-end tests.
-- [ ] **Contextual Error Handling**: Enhance error messages with more context for debugging.
-- [ ] **Configuration Validation**: Add validation for configuration values at startup.
+- [x] **Comprehensive Testing Strategy**: Implemented unit tests for `AppConfig` and resolved environment conflicts using `serial_test`.
+- [x] **Contextual Error Handling**: Enhanced `PprfError` with more granular types for better context and debugging.
+- [x] **Configuration Validation**: Added unit tests for `AppConfig` to validate configuration values.
 - [ ] **Structured Logging**: Implement structured logging with appropriate log levels.
+- [ ] **Self-Healing & Memory Management Error Handling**: Develop mechanisms for automatic error recovery, resource cleanup, and memory leak detection.
 - [ ] **Doc Comments**: Add comprehensive documentation for public items.
 - [ ] **Dependency Management**: Regularly review and update dependencies, and use `cargo audit`.
 - [ ] **Performance Profiling**: Utilize profiling tools to identify and address performance bottlenecks.
